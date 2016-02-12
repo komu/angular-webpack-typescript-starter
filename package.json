@@ -1,0 +1,36 @@
+{
+  "name": "angular-webpack-typescript-starter",
+  "description": "simple template for angular app",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "es6-shim": "^0.34.4"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.2.0",
+    "awesome-typescript-loader": "^0.15.9",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.7.2",
+    "node-sass": "^3.4.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "tslint": "^3.3.0",
+    "tslint-loader": "^2.1.0",
+    "typescript": "^1.8.0",
+    "typings": "^0.6.8",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-config": "^3.1.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "typings": "node_modules/.bin/typings install",
+    "start": "node_modules/.bin/webpack-dev-server --config webpack.serve-config.js",
+    "build": "node_modules/.bin/webpack --config webpack.build-config.js"
+  }
+}
