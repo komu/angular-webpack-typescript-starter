@@ -5,7 +5,6 @@ First install dependencies:
 
 ```
 npm install
-npm run typings
 ```
 
 Start dev-server at http://localhost:8080:
