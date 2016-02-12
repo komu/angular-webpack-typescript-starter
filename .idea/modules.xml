@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/cadenza.iml" filepath="$PROJECT_DIR$/.idea/cadenza.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/angular-webpack-typescript-starter.iml" filepath="$PROJECT_DIR$/.idea/angular-webpack-typescript-starter.iml" />
     </modules>
   </component>
 </project>
