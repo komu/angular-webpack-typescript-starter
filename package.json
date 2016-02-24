@@ -29,8 +29,8 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "postinstall": "node_modules/.bin/typings install",
-    "start": "node_modules/.bin/webpack-dev-server --config webpack.serve-config.js",
-    "build": "node_modules/.bin/webpack --config webpack.build-config.js"
+    "postinstall": "node node_modules/typings/dist/bin/typings.js install",
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.serve-config.js",
+    "build": "node node_modules/webpack/bin/webpack.js --config webpack.build-config.js"
   }
 }
