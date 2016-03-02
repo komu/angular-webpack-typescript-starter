@@ -8,6 +8,6 @@ export function routeConfiguration($routeProvider: angular.route.IRouteProvider)
 }
 
 exposeRouteParametersController.$inject = ['$routeParams', '$scope'];
-function exposeRouteParametersController($route: any, $scope: any) {
-    $scope.routeParams = $route;
+function exposeRouteParametersController($routeParams: any, $scope: any) {
+    $scope.routeParams = $routeParams;
 }
